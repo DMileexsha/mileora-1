@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Noto+Sans+Sinhala:wght@300;400;500;600;700&family=Noto+Serif+Sinhala:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-ivory text-maroon font-sans antialiased;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom CSS for some animations and details */
+.flower-petal {
+  position: fixed;
+  top: -10vh;
+  z-index: 10;
+  pointer-events: none;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+  }
+}
+
+.curtain-left {
+  transform-origin: left top;
+  transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.curtain-right {
+  transform-origin: right top;
+  transition: transform 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.curtain-open .curtain-left {
+  transform: scaleX(0);
+}
+
+.curtain-open .curtain-right {
+  transform: scaleX(0);
+}

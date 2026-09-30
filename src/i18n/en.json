@@ -1,0 +1,58 @@
+{
+  "title": "Sri Subha Mangalam",
+  "hero": {
+    "title": "Sri Subha Mangalam",
+    "withJoy": "Joyfully invite you to celebrate our wedding"
+  },
+  "families": {
+    "brideParents": "Beloved daughter of\nMr. Nissanka Nannadige and Mrs. Sanoja Ranjani",
+    "groomParents": "Beloved son of\nMr. Narada Wijesundara and Mrs. Chandana Manoma"
+  },
+  "countdown": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Mins",
+    "seconds": "Secs",
+    "arrived": "The wedding day is here!"
+  },
+  "event": {
+    "auspiciousTime": "Auspicious Time"
+  },
+  "location": {
+    "openMap": "Open in Google Maps",
+    "directions": "Get Directions",
+    "waze": "Open in Waze"
+  },
+  "calendar": {
+    "addToGoogle": "Add to Google Calendar",
+    "downloadIcs": "Save to Calendar (.ics)"
+  },
+  "rsvp": {
+    "title": "Confirm Your Presence",
+    "name": "Name",
+    "guests": "Number of Guests",
+    "attending": "Are you attending?",
+    "yes": "Yes, I'll be there",
+    "no": "No, I can't make it",
+    "wishes": "Wishes (Optional)",
+    "submit": "Submit RSVP",
+    "whatsappBtn": "RSVP via WhatsApp",
+    "whatsappMessage": "Hello, I am {name}. I will be attending the wedding with {count} guests. Best wishes!",
+    "success": "Your RSVP has been submitted successfully. Thank you!",
+    "error": "An error occurred. Please try again."
+  },
+  "closing": {
+    "line1": "We warmly welcome you to join our celebration",
+    "line2": "A respectful invitation to you and your family!"
+  },
+  "buttons": {
+    "openInvitation": "Open Invitation"
+  },
+  "personal": {
+    "dear": "Dear {{name}},"
+  },
+  "share": {
+    "copyLink": "Copy Link",
+    "share": "Share"
+  }
+}
